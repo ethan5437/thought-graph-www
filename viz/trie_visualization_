@@ -1,0 +1,22 @@
+// Trie
+digraph {
+	"Biological Process_10976352656" [label="Biological Process"]
+	"Biological Process_10976352656Blood Coagulation (1)_10982323344" [label="Blood Coagulation (1)" shape=circle]
+	"Biological Process_10976352656" -> "Biological Process_10976352656Blood Coagulation (1)_10982323344"
+	"Biological Process_10976352656Blood Coagulation (1)_10982323344Intrinsic Pathway of Blood Coagulation (100)_10924697296" [label="Intrinsic Pathway of Blood Coagulation (100)" shape=circle]
+	"Biological Process_10976352656Blood Coagulation (1)_10982323344" -> "Biological Process_10976352656Blood Coagulation (1)_10982323344Intrinsic Pathway of Blood Coagulation (100)_10924697296"
+	"Biological Process_10976352656Blood Coagulation (1)_10982323344Platelet Activation (1)_10983121488" [label="Platelet Activation (1)" shape=circle]
+	"Biological Process_10976352656Blood Coagulation (1)_10982323344" -> "Biological Process_10976352656Blood Coagulation (1)_10982323344Platelet Activation (1)_10983121488"
+	"Biological Process_10976352656Blood Coagulation (1)_10982323344Fibrinolysis (0)_11271009424" [label="Fibrinolysis (0)" shape=circle]
+	"Biological Process_10976352656Blood Coagulation (1)_10982323344" -> "Biological Process_10976352656Blood Coagulation (1)_10982323344Fibrinolysis (0)_11271009424"
+	"Biological Process_10976352656Platelet Activation (1)_10983982864" [label="Platelet Activation (1)" shape=circle]
+	"Biological Process_10976352656" -> "Biological Process_10976352656Platelet Activation (1)_10983982864"
+	"Biological Process_10976352656Platelet Activation (1)_10983982864Platelet Aggregation (0)_10983585616" [label="Platelet Aggregation (0)" shape=circle]
+	"Biological Process_10976352656Platelet Activation (1)_10983982864" -> "Biological Process_10976352656Platelet Activation (1)_10983982864Platelet Aggregation (0)_10983585616"
+	"Biological Process_10976352656Platelet Activation (1)_10983982864Platelet Adhesion (0)_10983010128" [label="Platelet Adhesion (0)" shape=circle]
+	"Biological Process_10976352656Platelet Activation (1)_10983982864" -> "Biological Process_10976352656Platelet Activation (1)_10983982864Platelet Adhesion (0)_10983010128"
+	"Biological Process_10976352656Platelet Activation (1)_10983982864Secretion of Platelet Granules (0)_10983011088" [label="Secretion of Platelet Granules (0)" shape=circle]
+	"Biological Process_10976352656Platelet Activation (1)_10983982864" -> "Biological Process_10976352656Platelet Activation (1)_10983982864Secretion of Platelet Granules (0)_10983011088"
+	"Biological Process_10976352656Vascular Development (0)_10983126480" [label="Vascular Development (0)" shape=circle]
+	"Biological Process_10976352656" -> "Biological Process_10976352656Vascular Development (0)_10983126480"
+}

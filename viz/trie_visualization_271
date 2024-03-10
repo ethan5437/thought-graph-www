@@ -1,0 +1,22 @@
+// Trie
+digraph {
+	"Biological Process_140380236614608" [label="Biological Process"]
+	"Biological Process_140380236614608Gene expression_140379820210832" [label="Gene expression (6)" shape=circle]
+	"Biological Process_140380236614608" -> "Biological Process_140380236614608Gene expression_140379820210832" [label=""]
+	"Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064" [label="Transcription initiation (5)" shape=circle]
+	"Biological Process_140380236614608Gene expression_140379820210832" -> "Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064" [label="is a"]
+	"Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064Pre-replication complex assembly_140379816966672" [label="Pre-replication complex assembly (9)" shape=circle]
+	"Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064" -> "Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064Pre-replication complex assembly_140379816966672" [label="has part"]
+	"Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064Pre-replication complex assembly_140379816966672Origin recognition complex assembly_140379828621200" [label="Origin recognition complex assembly (5)" shape=circle]
+	"Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064Pre-replication complex assembly_140379816966672" -> "Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064Pre-replication complex assembly_140379816966672Origin recognition complex assembly_140379828621200" [label="is a"]
+	"Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064Pre-replication complex assembly_140379816966672Origin recognition complex assembly_140379828621200Pre-replication complex assembly_140379817685008" [label="Pre-replication complex assembly (*)" shape=circle]
+	"Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064Pre-replication complex assembly_140379816966672Origin recognition complex assembly_140379828621200" -> "Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064Pre-replication complex assembly_140379816966672Origin recognition complex assembly_140379828621200Pre-replication complex assembly_140379817685008" [label="is a"]
+	"Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064Pre-replication complex assembly_140379816966672Origin recognition complex (ORC) assembly_140379816959312" [label="Origin recognition complex (ORC) assembly (5)" shape=circle]
+	"Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064Pre-replication complex assembly_140379816966672" -> "Biological Process_140380236614608Gene expression_140379820210832Transcription initiation_140379816962064Pre-replication complex assembly_140379816966672Origin recognition complex (ORC) assembly_140379816959312" [label="has part"]
+	"Biological Process_140380236614608Gene expression_140379820210832Regulation of transcription from RNA polymerase II promoter_140379817686608" [label="Regulation of transcription from RNA polymerase II promoter (5)" shape=circle]
+	"Biological Process_140380236614608Gene expression_140379820210832" -> "Biological Process_140380236614608Gene expression_140379820210832Regulation of transcription from RNA polymerase II promoter_140379817686608" [label=regulates]
+	"Biological Process_140380236614608Gene expression_140379820210832Transcription_140379817673680" [label=Transcription shape=circle]
+	"Biological Process_140380236614608Gene expression_140379820210832" -> "Biological Process_140380236614608Gene expression_140379820210832Transcription_140379817673680" [label="has part"]
+	"Biological Process_140380236614608Gene Expression_140379816953552" [label="Gene Expression (4)" shape=circle]
+	"Biological Process_140380236614608" -> "Biological Process_140380236614608Gene Expression_140379816953552" [label=""]
+}

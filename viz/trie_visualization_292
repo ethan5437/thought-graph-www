@@ -1,0 +1,20 @@
+// Trie
+digraph {
+	"Biological Process_140379816457488" [label="Biological Process"]
+	"Biological Process_140379816457488Gene expression_140379817196368" [label="Gene expression (5)" shape=circle]
+	"Biological Process_140379816457488" -> "Biological Process_140379816457488Gene expression_140379817196368" [label=""]
+	"Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496" [label="Peroxisome biogenesis (10)" shape=circle]
+	"Biological Process_140379816457488Gene expression_140379817196368" -> "Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496" [label=regulates]
+	"Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496Peroxisome division_140379816517520" [label="Peroxisome division (5)" shape=circle]
+	"Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496" -> "Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496Peroxisome division_140379816517520" [label="has part"]
+	"Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496Peroxisome division_140379816517520Peroxisome fission_140379816600464" [label="Peroxisome fission (6)" shape=circle]
+	"Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496Peroxisome division_140379816517520" -> "Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496Peroxisome division_140379816517520Peroxisome fission_140379816600464" [label="is a"]
+	"Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496Peroxisome division_140379816517520Peroxisome fission_140379816600464Peroxisome elongation_140379816627024" [label="Peroxisome elongation (*)" shape=circle]
+	"Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496Peroxisome division_140379816517520Peroxisome fission_140379816600464" -> "Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496Peroxisome division_140379816517520Peroxisome fission_140379816600464Peroxisome elongation_140379816627024" [label=regulates]
+	"Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496Peroxisome fission_140379816605648" [label="Peroxisome fission (5)" shape=circle]
+	"Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496" -> "Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496Peroxisome fission_140379816605648" [label="has part"]
+	"Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496Peroxisome elongation_140379816594768" [label="Peroxisome elongation" shape=circle]
+	"Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496" -> "Biological Process_140379816457488Gene expression_140379817196368Peroxisome biogenesis_140380272500496Peroxisome elongation_140379816594768" [label="has part"]
+	"Biological Process_140379816457488Gene Expression_140379816523600" [label="Gene Expression (5)" shape=circle]
+	"Biological Process_140379816457488" -> "Biological Process_140379816457488Gene Expression_140379816523600" [label=""]
+}
