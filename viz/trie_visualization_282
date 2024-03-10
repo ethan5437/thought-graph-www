@@ -1,0 +1,39 @@
+// Trie
+digraph {
+	"Biological Process_140379816095440" [label="Biological Process"]
+	"Biological Process_140379816095440Gene expression_140380233743440" [label="Gene expression (5)" shape=circle]
+	"Biological Process_140379816095440" -> "Biological Process_140379816095440Gene expression_140380233743440" [label=""]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856" [label="Regulation of cytokine production (5)" shape=circle]
+	"Biological Process_140379816095440Gene expression_140380233743440" -> "Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856" [label=regulates]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608" [label="Tumor necrosis factor signaling pathway (5)" shape=circle]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856" -> "Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608" [label="has part"]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608Apoptosis induction_140379818383056" [label="Apoptosis induction (2)" shape=circle]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608" -> "Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608Apoptosis induction_140379818383056" [label=regulates]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608NF-kappaB signaling pathway_140379816170576" [label="NF-kappaB signaling pathway (5)" shape=circle]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608" -> "Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608NF-kappaB signaling pathway_140379816170576" [label="is a"]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608NF-kappaB signaling pathway_140379816170576Regulation of inflammatory response_140379816324816" [label="Regulation of inflammatory response (*)" shape=circle]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608NF-kappaB signaling pathway_140379816170576" -> "Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608NF-kappaB signaling pathway_140379816170576Regulation of inflammatory response_140379816324816" [label=regulates]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608NF-kappaB signaling pathway_140379816170576Transcriptional regulation of inflammatory response_140379816342672" [label="Transcriptional regulation of inflammatory response (5)" shape=circle]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608NF-kappaB signaling pathway_140379816170576" -> "Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608NF-kappaB signaling pathway_140379816170576Transcriptional regulation of inflammatory response_140379816342672" [label=regulates]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608NF-kappaB signaling pathway_140379816170576Apoptosis regulation_140379816329936" [label="Apoptosis regulation" shape=circle]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608NF-kappaB signaling pathway_140379816170576" -> "Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608NF-kappaB signaling pathway_140379816170576Apoptosis regulation_140379816329936" [label=regulates]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608Apoptosis induction via death domain receptors_140379816329168" [label="Apoptosis induction via death domain receptors (3)" shape=circle]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608" -> "Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Tumor necrosis factor signaling pathway_140379817774608Apoptosis induction via death domain receptors_140379816329168" [label=regulates]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Regulation of tumor necrosis factor-alpha (TNF-03b1) production_140379816320656" [label="Regulation of tumor necrosis factor-alpha (TNF-03b1) production (1)" shape=circle]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856" -> "Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Regulation of tumor necrosis factor-alpha (TNF-03b1) production_140379816320656" [label="is a"]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Regulation of Tumor Necrosis Factor-alpha (TNF-
+ 
+ 
+_140379816319568" [label="Regulation of Tumor Necrosis Factor-alpha (TNF-
+ 
+ 
+ (1)" shape=circle]
+	"Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856" -> "Biological Process_140379816095440Gene expression_140380233743440Regulation of cytokine production_140379816027856Regulation of Tumor Necrosis Factor-alpha (TNF-
+ 
+ 
+_140379816319568" [label="is a"]
+	"Biological Process_140379816095440Gene expression_140380233743440Tumor necrosis factor signaling pathway_140379817936336" [label="Tumor necrosis factor signaling pathway (5)" shape=circle]
+	"Biological Process_140379816095440Gene expression_140380233743440" -> "Biological Process_140379816095440Gene expression_140380233743440Tumor necrosis factor signaling pathway_140379817936336" [label=regulates]
+	"Biological Process_140379816095440Gene Expression_140379817475920" [label="Gene Expression (5)" shape=circle]
+	"Biological Process_140379816095440" -> "Biological Process_140379816095440Gene Expression_140379817475920" [label=""]
+}
